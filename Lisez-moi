@@ -1,0 +1,14 @@
+Un démon DBus et (un "frontend"** GTK3)
+L'anglisime "Frontend"**, qui est utiliser a toute les sauce en anglais.
+Veut dans le cas présent, dire **"Enrobeur, AVEC couche d'abstraction graphique ou GUI" GTK3 pour libalpm et écrits en vala.
+
+Caractéristiques:
+- Fixations Alpm pour Vala
+- Un démon DBus pour effectuer toutes les tâches avec un accès root en utilisant polkit pour vérifier les autorisations
+- un gestionnaire de paquets Gtk3
+- un gestionnaire de mises à jour Gtk3
+- une icône de plateau avec des mises à jour et des mises à jour périodiques configurables
+- un support AUR complet:
+* capacité de recherche de mots multiples
+* Activer / Désactiver vérifier les mises à jour de AUR
+* Construire et mettre à jour vos paquets AUR dans un terminal intégré en utilisant yaourt (lui meme enrobeur de pacman.)
